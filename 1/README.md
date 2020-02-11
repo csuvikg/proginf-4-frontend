@@ -1,0 +1,2 @@
+- Gyakorlat látogatása kötelező, katalógus van
+- 
