@@ -1,0 +1,11 @@
+/* html {
+  scroll-behavior: smooth;
+} */
+
+.progressDiv {
+    position: fixed;
+    height: 5px;
+    background-color: lightgray;
+    width: 0;
+    z-index: 3000;
+}
