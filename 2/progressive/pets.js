@@ -44,3 +44,27 @@ class Cascade {
 }
 
 new Cascade(document.querySelector('select[name="pets"]'));
+/* WIP
+class CascadeDropdown extends HTMLElement {
+    constructor() {
+        super();
+        this.attachShadow({ mode: "open" });
+    }
+
+    connectedCallback() {
+        const template = document.querySelector("template");
+        const content = template.content.cloneNode(true);
+        this.shadowRoot.appendChild(content);
+
+        this.origSelect = this.querySelector("select");
+
+        // todo: rewrite functions to use this.shadowRoot instead of document 
+    }
+
+    disconnectedCallback() {
+
+    }
+}
+
+customElements.define("cascade-dropdown", CascadeDropdown);
+*/

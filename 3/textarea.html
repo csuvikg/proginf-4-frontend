@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Textarea</title>
+    <style>
+        textarea {
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- WIP <template>
+        <style>
+        :host > div {
+            background-color: #ccc;
+            border-radius: 8px;
+        }
+
+        ::slotted(textarea) {
+
+        }
+        </style>
+        <div>
+            <slot></slot>
+            <div>Character count: <span>0</span></div>
+        </div>
+    </template> -->
+    <textarea id="text"></textarea>
+    <p id="counter"></p>
+    <!-- <textarea-l-count>
+        <textarea>
+    </textarea-l-count> -->
+
+    <div>
+        Hue: <input is="hue-input" type="number" min="0" max="360" id="colorchooser">
+        Saturation: 50%, Lightness: 50%
+    </div>
+
+    <input type="password" id="password"/>
+    <input type="button" id="toggle" value="Show"/>
+    <script src="textarea.js"></script>
+</body>
+</html>
